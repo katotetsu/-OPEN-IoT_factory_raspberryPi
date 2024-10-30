@@ -1,0 +1,32 @@
+{
+	"factory":"FTD000",
+	"machine":[
+		{"id":"MTD001","ope":"","lig":"","swi":"000101","threshold":""},
+		{"id":"MTD002","ope":"","lig":"000140","swi":"","threshold":["700","",""],"ligtype":"1"},
+		{"id":"MTD003","ope":"000128","lig":"","swi":"","threshold":"1000"}
+	],
+	"area":[
+		{"id":"ATD001","pir":"000132","dis":"000118","threshold":""},
+		{"id":"ATD002","pir":"","dis":"000117","threshold":"500"}
+	],
+	"receiver":[
+	],
+	"beacon":[
+	],
+	"type":{
+		"ope":85,
+		"lig":84,
+		"swi":83,
+		"pir":82,
+		"bea":81,
+		"dis":86
+	},
+	"length":{
+		"ope":5,
+		"lig":5,
+		"swi":1,
+		"pir":5,
+		"bea":10,
+		"dis":5
+	}
+}
